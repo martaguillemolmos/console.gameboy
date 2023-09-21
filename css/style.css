@@ -178,3 +178,12 @@ body {
         .textoPiloto{
             margin-top: 1em;
         }
+
+        /* <!-- Diseño del logo que hay debajo de la pantalla --> */
+        #textNintendo{
+            font-size: 2em ;
+        }
+
+        #textGameBoy{
+            font-size: 2.5em;
+        }
