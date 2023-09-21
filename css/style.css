@@ -10,43 +10,44 @@ body {
     background-color: aqua;
   }
   
-  .gameboy {
-    margin: 0;
-    padding: 0;
+    .gameboy {
+        margin: 0;
+        padding: 0;
 
-    position: relative;
-    height: 70em;
-    width: 42em;
+        position: relative;
+        height: 70em;
+        width: 42em;
 
-    font-family: 'Arial', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: scale(0.5);
-   
-    flex-shrink: 0;
-    background-color: #d7d2d8 ;
+        font-family: 'Arial', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: scale(0.5);
+        border-radius: 1em 1em 5em 1em;
     
-  }
+        flex-shrink: 0;
+        background-color: #d7d2d8 ;
+        
+    }
 
         /* Diseño del boton superior de la consola. */
 
-        .top-detalles{
-            margin:0;
-            padding:0;
+            .top-detalles{
+                margin:0;
+                padding:0;
 
-            position: relative;
-            /* Aquí indicamos la posición del botón superior. */
-            top: -17.4em;
-            left: 13.5em;
-            height: 1em;
-            width: 0.9em;
-            cursor: pointer;
-            transition: left 0.25s ease-in;
-            border-radius: 50%;
-            
-            background-color:red;
+                position: relative;
+                /* Aquí indicamos la posición del botón superior. */
+                top: -17.4em;
+                left: 13.5em;
+                height: 1em;
+                width: 0.9em;
+                cursor: pointer;
+                transition: left 0.25s ease-in;
+                border-radius: 50%;
+                
+                background-color:red;
 
-        }
+            }
 
 
         /* Diseñamos la parte superior de on-off, dentro de la consola. */
@@ -110,80 +111,123 @@ body {
 
         /* Espacio de la pantalla total, que hemos determinado como totalScreen */
         
-        .totalScreen{
+            .totalScreen{
             /* Miramos en internet como hacer el gameboy-stripe-gradient y copiamos el códido de las dos líneas. */
-            --gameboy-stripe-gradient: linear-gradient( transparent 10px, #7d1a4a 10px 12px, transparent 12px 16px, #35224e 16px 18px, transparent 18px );
-            background: var(--gameboy-stripe-gradient);
+                --gameboy-stripe-gradient: linear-gradient( transparent 10px, #7d1a4a 10px 12px, transparent 12px 16px, #35224e 16px 18px, transparent 18px );
+                background: var(--gameboy-stripe-gradient);
 
-            height:24em;
-            border-radius: 0.625em 0.625em 2.188em 0.625em;
-            background-color: grey;
-            margin:3em;
+                height:24em;
+                border-radius: 0.625em 0.625em 2.188em 0.625em;
+                background-color: grey;
+                margin:3em;
+            
+            }
+
+            .pantallaInfor{
+                display: flex;
+                
+            }
+
+            .screenTextoSuperior{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
         
-        }
+            #textMatrix{
+                margin:0.31em;
+                margin-top: 0.4em;
+                margin-left: 8em;
 
-        .pantallaInfor{
-            display: flex;
-            
-        }
+                background-color: grey;
+            }
 
-        .screenTextoSuperior{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-        }
-    
-        #textMatrix{
-            margin:0.31em;
-            margin-top: 0.4em;
-            margin-left: 8em;
+            .pantallaInfor{
+                display: flex;
+                justify-content: center;
+            }
+            .bateria{
+                width: 8em;
+                height: 10em;
 
-            background-color: grey;
-        }
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                
+                background-color: aquamarine;
+            }
+            .pantalla{
+                width:25em;
+                height: 21em;
+                background-color: azure;
+            }
 
-        .pantallaInfor{
-            display: flex;
-            justify-content: center;
-        }
-        .bateria{
-            width: 8em;
-            height: 10em;
+            .piloto{
+                width: 1em;
+                height: 1em;
+                margin-right: 2em;
 
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            justify-content: center;
-            align-items: center;
-            
-            background-color: aquamarine;
-        }
-        .pantalla{
-            width:25em;
-            height: 21em;
-            background-color: azure;
-        }
+                display: flex;
+                justify-content: end;
+                border-radius: 50%;
+                background-color: red;
+            }
 
-        .piloto{
-            width: 1em;
-            height: 1em;
-            margin-right: 2em;
-
-            display: flex;
-            justify-content: end;
-            border-radius: 50%;
-            background-color: red;
-        }
-
-        .textoPiloto{
-            margin-top: 1em;
-        }
+            .textoPiloto{
+                margin-top: 1em;
+            }
 
         /* <!-- Diseño del logo que hay debajo de la pantalla --> */
-        #textNintendo{
-            font-size: 2em ;
-        }
+            
+            .logoNintendo{
+                margin:0;
+                margin-top: -2em;
+                margin-left: 3.2em;
+            }
+            #textNintendo{
+                font-size: 2em ;
+            }
 
-        #textGameBoy{
-            font-size: 2.5em;
-        }
+            #textGameBoy{
+                font-size: 2.5em;
+            }
+
+            .logoTm{
+                margin-top: -4em;
+                margin-left: 25.6em;
+                display: flex;
+            }
+
+        /* Diseño de la primera parte de los botones, cruz + A,B */
+            .parteBotones1{
+                height: 22em;
+
+                margin-top: 1em;
+                margin-left: 2em;
+                margin-right: 2em;
+
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+
+                gap:2em;
+
+            }            
+            .cruz{
+                height: 15em;
+                width: 15em;
+                border-radius: 50%;
+                background-color: #CFC8D1;
+            }
+
+            .botonesAB{
+                height: 8em;
+                width: 16.5em;
+                border-radius: 40%;
+                background-color: #CFC8D1;
+            }
