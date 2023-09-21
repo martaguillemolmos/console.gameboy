@@ -226,8 +226,29 @@ body {
             }
 
             .botonesAB{
-                height: 7.5em;
-                width: 16.5em;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                align-items: flex-start;
+                height: 7.1em;
+                width: 16.1em;
                 border-radius: 45%;
                 background-color: #CFC8D1;
             }
+
+                #botonA{
+                    height: 5.5em;
+                    width: 5.5em;
+                    margin-top: 1em;
+                    border-radius: 50%;
+                    background-color: brown;
+                }
+
+                #botonB{
+                    height: 5.5em;
+                    width: 5.5em;
+                    margin-top: 1em;
+                    border-radius: 50%;
+                    background-color: brown;
+                }
