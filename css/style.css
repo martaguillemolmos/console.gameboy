@@ -376,6 +376,44 @@ body {
                     justify-content: center;
                     margin-top: 0.9em;
     
+
+
+                /* Diseño de los altavoces del lateral. */
+                
+                .altavoces{
+                    width: 10em;
+                    height: 8em;
+                    margin-left: 32em;
+                    gap: 0.9em;
+
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    transform: rotate(-20deg);
+
+                    background-color: aqua;
+                }
+
+                .altavozIndividual{
+                    width: 1em;
+                    height: 7em;
+
+                    margin: 0.5em;
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    align-items: center;
+
+                  
+                    background-color: #ec7cb2;
+                }
+
+
+
+
                     /* Diseño del boton superior de la consola. */
 
             /* .top-detalles{
