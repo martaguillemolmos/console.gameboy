@@ -15,7 +15,7 @@ body {
         padding: 0;
 
         position: relative;
-        height: 70em;
+        height: 68em;
         width: 42em;
 
         font-family: 'Arial', sans-serif;
@@ -34,64 +34,7 @@ body {
         box-shadow: inset 0 10px 6px -2px rgba(255, 255, 255, 0.95), inset 0 -4px 16px 0 rgba(0, 0, 0, 0.5), 0 40px 60px 0px rgba(0, 0, 0, 0.6);
     }
 
-        /* Diseñamos la parte superior de on-off, dentro de la consola. */
 
-            .onOff{
-            margin: 0;
-            padding:0;
-
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-content: center;
-            justify-content: flex-start;
-
-            border-radius: 0 0 0.4em 0.4em;
-            border: 0.3em solid #1111;
-            box-shadow: 0 2px 2px #2f2725aa;
-
-        }
-
-            .espacioIzquierda{
-            margin: 0;
-            padding:0;
-            
-            width: 6em;
-            float:left;
-            margin-top: 0em;
-            padding-bottom: 0.5em;
-            
-            display:flex;
-            justify-content: center;
-            background-color: aqua;
-        }
-
-            .espacioMedio{
-
-            margin-top: 0.5em;
-            padding-bottom: 0.5em;
-            
-            width: 18em;
-            
-            display:content;
-            justify-content: center;
-            
-            float:left;
-
-        }
-
-            .espacioDerecha{
-            float:left;
-            margin-left: 29.4em;
-            margin-top: 0em;
-            padding-bottom: 0.5em;
-            
-            width: 6em;
-            display: flex;
-            justify-content: end;
-            align-items: flex-end;
-            background-color: black;
-        }
 
         /* Espacio de la pantalla total, que hemos determinado como totalScreen */
         
@@ -106,7 +49,7 @@ body {
                 border-top: 2px solid rgba(0, 0, 0, 0.7);
                 box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.4);
                 margin:3em;
-            
+                margin-top:2em;
             }
 
             .pantallaInfor{
@@ -134,7 +77,7 @@ body {
                 justify-content: center;
             }
             .bateria{
-                width: 8em;
+                width: 6em;
                 height: 10em;
 
                 display: flex;
@@ -143,13 +86,17 @@ body {
                 justify-content: center;
                 align-items: center;
                 
-                background-color: aquamarine;
+                /* background-color: aquamarine; */
             }
             .pantalla{
-                width:25em;
-                height: 18em;
-                background-color: azure;
+            
+                width:26em;
+                height: 19em;
+                margin-top: 0.9em;;
+                border: 0.1em solid #575a22;
+                background:linear-gradient(to left, #9aa13c 0%, #575a22 100%);
             }
+            
 
             .piloto{
                 width: 1em;
@@ -159,7 +106,9 @@ body {
                 display: flex;
                 justify-content: end;
                 border-radius: 50%;
+                background: radial-gradient(ellipse at center, #615d5d 0%, #43423f 100%);
                 background-color: red;
+
             }
 
             .textoPiloto{
@@ -224,6 +173,8 @@ body {
                 transform: rotate(-25deg);
                 border-radius: 72px;
                 background-color: #CFC8D1;
+                
+
             }
 
                 #botonA{
@@ -317,15 +268,16 @@ body {
                 align-items: flex-start;
                 height: 7.1em;
                 width: 16.1em;
+                margin-top: 2em;
                 border-radius: 4.5em;
             }
 
-                #startBoton{
+              
+                #selectBoton{
                     height: 1.5em;
                     width: 7em;
                     border-radius: 1.25px;
                     background: inset 0 -4px 2px -2px rgba(255, 255, 255, 0.9);
-                    cursor: pointer;
                 }
 
                 #clickStart{
@@ -333,7 +285,9 @@ body {
                     width: 5.5em;
                     margin-left: 0.8em;
                     margin-top: 0.1em;
-                
+
+                    cursor: pointer;
+
                     border-radius: 1.25em;
                     background: red;
                     box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
@@ -354,7 +308,6 @@ body {
                     justify-content: space-around;
                     align-items: flex-start;
                     height: 7.1em;
-                    margin-top: 2em;
                     width: 16.1em;
                     border-radius: 4.5em;
                 }
@@ -365,7 +318,6 @@ body {
                         width: 7em;
                         border-radius: 1.25em;
                         background: inset 0 -4px 2px -2px rgba(255, 255, 255, 0.9);
-                        cursor: pointer;
                     }
 
                     #clickSelect{
@@ -374,6 +326,9 @@ body {
                         margin-left: 0.8em;
                         margin-top: 0.1em;
                         border-radius: 1.25em;
+                        
+                        cursor: pointer;
+
                         background: red;
                         box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);}
                     
@@ -470,7 +425,7 @@ body {
                     display:flex;
                     justify-content: center;
                     border-radius: 0 0 0.4em 0.4em;
-                    border: 0.3em solid #1111;
+                    border: 0.3em 0.3em 0em 0.3em solid #1111;
                     box-shadow: 0 2px 2px #2f2725aa;
                     
 
@@ -513,19 +468,88 @@ body {
                     background-color: #35224e;
                 }
 
-                /* Diseño del boton superior de la consola. */
+                /* Diseño texto ON-OFF. */
 
-            /* .top-detalles{
-                margin:0;
-                padding:0;
+                .onOff {
+                    margin: 0;
+                    padding:0;
+    
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    justify-content: flex-start;
+                    align-items:center;
 
-                display: flex;
-                height: 1em;
-                width: 0.9em;
-                cursor: pointer;
-                transition: left 0.25s ease-in;
-                border-radius: 50%;
+                    border-radius: 0 0 0.4em 0.4em;
+                    border: 0.3em solid #1111;
+                    background-image: url("img/sombreadogris.jpg");
+                    box-shadow: 0 2px 2px #2f2725aa;
+                    
+                    cursor: pointer;
+                    }
+    
+                    .espacioIzquierda{
+                        margin:0;
+                        padding:0;
+                        width: 18em;
+                    }
+    
+                    .espacioMedio{
+                        margin:0;
+                        padding: 0;
+                        width: 38em;
+                        height: 1.2em;
+    
+                        display:flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        align-content: center;
+                        justify-content: flex-start;
+                        border-radius: 0 0 0.4em 0.4em;
+                        border: 0.3em solid #1111;
+                        box-shadow: 0 2px 2px #2f2725aa;
+                        
+    
+                    }
+    
+                    .espacioPhoneDer{
+                        margin:0;
+                        padding:0;
+                        width: 18em;
+                        
+                    }
+    
+                    /* Diseño lineas debajo de phone. */
                 
-                background-color:red; */
+    
+                    .lineasPhone{
+                        margin: 0;
+                        padding: 0;
+    
+                        margin-left: 2.2em;
+                       
+                        height: 1.5em;
+                        width: 42em;
+    
+                        gap:0.2em; 
+    
+                        display: flex;
+                        flex-wrap: nowrap;
+                        align-content: center;
+                        justify-content: center;
+    
+                        
+    
+                    }
+    
+                    .lineaPh1{
+                        height: 1.5em;
+                        width: 0.4em;
+    
+                        background-color: #35224e;
+                    }
+                
+           
 
-            }
+             
