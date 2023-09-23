@@ -237,6 +237,145 @@ body {
                     background-color: brown;
                 }
 
+            /* Diseño cruz */
+
+                .row1{
+                    height:4.5em;
+                    width: 4em;
+
+                    margin-top: 1.5em;
+                    margin-left: 6em;
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #35224e;
+                }
+
+                .row2{
+                    height:4em;
+                    width: 12em;
+
+                    margin-top: -0.1em;
+                    margin-left: 1.7em;
+
+                    display: flex;
+                    flex-direction: row-reverse;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #35224e;
+                }
+                
+                .row3{
+                    height:4.5em;
+                    width: 4em;
+
+                    margin-top: -0.1em;
+                    margin-left: 6em;
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #35224e;
+                }
+
+
+             /* Diseño botones Select y Start    */
+
+            /* BOTÓN START */
+             .selectStart{
+                display: flex;
+                transform: rotate(-18deg);
+                height: 5em;
+                width: 12em;
+                margin-left: 15em;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+             }
+             
+             .startExterior{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                align-items: flex-start;
+                height: 7.1em;
+                width: 16.1em;
+                border-radius: 4.5em;
+            }
+
+                #startBoton{
+                    height: 1.5em;
+                    width: 7em;
+                    border-radius: 1.25px;
+                    background: inset 0 -4px 2px -2px rgba(255, 255, 255, 0.9);
+                    cursor: pointer;
+                }
+
+                #clickStart{
+                    height: 1.12em;
+                    width: 5.5em;
+                    margin-left: 0.8em;
+                    margin-top: 0.1em;
+                
+                    border-radius: 1.25em;
+                    background: red;
+                    box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
+                }
+                
+                .textStart{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 0.9em;
+
+                }
+
+                /* BOTÓN SELECT */
+                .selectExterior{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    height: 7.1em;
+                    margin-top: 2em;
+                    width: 16.1em;
+                    border-radius: 4.5em;
+                }
+                
+    
+                    #selectBoton{
+                        height: 1.5em;
+                        width: 7em;
+                        border-radius: 1.25em;
+                        background: inset 0 -4px 2px -2px rgba(255, 255, 255, 0.9);
+                        cursor: pointer;
+                    }
+
+                    #clickSelect{
+                        height: 1.12em;
+                        width: 5.5em;
+                        margin-left: 0.8em;
+                        margin-top: 0.1em;
+                        border-radius: 1.25em;
+                        background: red;
+                        box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);}
+                    
+                    
+                    .textSelect{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 0.9em;
+    
                     /* Diseño del boton superior de la consola. */
 
             /* .top-detalles{
