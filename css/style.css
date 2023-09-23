@@ -29,26 +29,7 @@ body {
         
     }
 
-        /* Diseño del boton superior de la consola. */
-
-            .top-detalles{
-                margin:0;
-                padding:0;
-
-                position: relative;
-                /* Aquí indicamos la posición del botón superior. */
-                top: -17.4em;
-                left: 13.5em;
-                height: 1em;
-                width: 0.9em;
-                cursor: pointer;
-                transition: left 0.25s ease-in;
-                border-radius: 50%;
-                
-                background-color:red;
-
-            }
-
+    
 
         /* Diseñamos la parte superior de on-off, dentro de la consola. */
 
@@ -231,9 +212,12 @@ body {
                 flex-wrap: nowrap;
                 justify-content: space-around;
                 align-items: flex-start;
+
                 height: 7.1em;
                 width: 16.1em;
-                border-radius: 45%;
+
+                transform: rotate(-25deg);
+                border-radius: 72px;
                 background-color: #CFC8D1;
             }
 
@@ -252,3 +236,20 @@ body {
                     border-radius: 50%;
                     background-color: brown;
                 }
+
+                    /* Diseño del boton superior de la consola. */
+
+            /* .top-detalles{
+                margin:0;
+                padding:0;
+
+                display: flex;
+                height: 1em;
+                width: 0.9em;
+                cursor: pointer;
+                transition: left 0.25s ease-in;
+                border-radius: 50%;
+                
+                background-color:red; */
+
+            }
