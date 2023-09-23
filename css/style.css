@@ -30,7 +30,9 @@ body {
         box-shadow: inset 0 10px 6px -2px rgba(255, 255, 255, 0.95), inset 0 -4px 16px 0 rgba(0, 0, 0, 0.5), 0 40px 60px 0px rgba(0, 0, 0, 0.6);;
     }
 
-    
+    .diseño-frontal cabecera{
+        box-shadow: inset 0 10px 6px -2px rgba(255, 255, 255, 0.95), inset 0 -4px 16px 0 rgba(0, 0, 0, 0.5), 0 40px 60px 0px rgba(0, 0, 0, 0.6);
+    }
 
         /* Diseñamos la parte superior de on-off, dentro de la consola. */
 
@@ -100,7 +102,9 @@ body {
 
                 height:24em;
                 border-radius: 0.625em 0.625em 2.188em 0.625em;
-                background-color: grey;
+                background-color: #73738a;
+                border-top: 2px solid rgba(0, 0, 0, 0.7);
+                box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.4);
                 margin:3em;
             
             }
@@ -143,7 +147,7 @@ body {
             }
             .pantalla{
                 width:25em;
-                height: 21em;
+                height: 18em;
                 background-color: azure;
             }
 
@@ -227,7 +231,8 @@ body {
                     width: 5.5em;
                     margin-top: 1em;
                     border-radius: 50%;
-                    background-color: brown;
+                    background:linear-gradient(to bottom, #b30f42 0%, #640116 100%);
+                    cursor: pointer;
                 }
 
                 #botonB{
@@ -235,7 +240,8 @@ body {
                     width: 5.5em;
                     margin-top: 1em;
                     border-radius: 50%;
-                    background-color: brown;
+                    background:linear-gradient(to bottom, #b30f42 0%, #640116 100%);
+                    cursor: pointer;
                 }
 
             /* Diseño cruz */
