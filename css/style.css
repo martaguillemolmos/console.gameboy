@@ -152,13 +152,125 @@ body {
 
                 gap:2em;
 
-            }            
+            }     
+            
+            /* Diseño de la cruz. */
+
             .cruz{
                 height: 15em;
                 width: 15em;
+
+                display: flex;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+
                 border-radius: 50%;
                 background-color: #CFC8D1;
+                box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
+
             }
+                .espacioCruz{
+                    height: 4.5em;
+                    width: 4.5em;
+
+               }
+
+                        .cruz1{
+                            height: 4.5em;
+                            width: 4.5em;
+
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            align-content: center;
+                            justify-content: center;
+                            align-items: center;
+
+                            -webkit-transform: rotate(90deg);
+
+                            gap:0.7em;
+
+                            background-color: #8840e6;
+                        }
+
+                        .cruz2{
+                            height: 4.5em;
+                            width: 4.5em;
+
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            align-content: center;
+                            justify-content: center;
+                            align-items: center;
+
+                            gap:0.7em;
+
+                            background-color: #8840e6;
+                        }
+                        .cruz3{
+                            height: 4.5em;
+                            width: 4.5em;
+
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            align-content: center;
+                            justify-content: center;
+                            align-items: center;
+
+                            gap:0.7em;
+
+                            background-color: #8840e6;
+                        }
+                        .cruz4{
+                            height: 4.5em;
+                            width: 4.5em;
+
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            align-content: center;
+                            justify-content: center;
+                            align-items: center;
+
+                            gap:0.7em;
+
+                            background-color: #8840e6;
+                        }
+                        .cruz5{
+                            height: 4.5em;
+                            width: 4.5em;
+
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            align-content: center;
+                            justify-content: center;
+                            align-items: center;
+
+                            -webkit-transform: rotate(90deg);
+
+                            gap:0.7em;
+
+                            background-color: #8840e6;
+                        }
+
+                                .lineaCruz{
+                                    height: 0.5em;
+                                    width: 3.5em;
+
+                                    background-color:  white;
+                                }
+
+                                .circuloCruz{
+                                    height: 4em;
+                                    width: 4em;
+                                    border-radius: 100%;
+                                    background-color: #35224e;
+                                }
 
             .botonesAB{
                 display: flex;
@@ -173,7 +285,8 @@ body {
                 transform: rotate(-25deg);
                 border-radius: 72px;
                 background-color: #CFC8D1;
-                
+                box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
+
 
             }
 
@@ -195,7 +308,7 @@ body {
                     cursor: pointer;
                 }
 
-            /* Diseño cruz */
+            /* Diseño cruz
 
                 .row1{
                     height:4.5em;
@@ -241,7 +354,7 @@ body {
                     align-items: center;
                     justify-content: center;
                     background-color: #35224e;
-                }
+                } */
 
 
              /* Diseño botones Select y Start    */
