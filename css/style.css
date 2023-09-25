@@ -100,11 +100,12 @@ body {
     width: 25em;
     height: 19em;
     margin-top: 0.9em;
-    ;
+
     border: 0.1em solid #575a22;
     background-color: green;
     cursor: pointer;
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -631,4 +632,8 @@ body {
     width: 0.4em;
 
     background-color: #35224e;
+}
+
+#audio {
+    display: none
 }
