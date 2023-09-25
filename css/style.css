@@ -1,4 +1,4 @@
-body { 
+body {
     width: 100vw;
     height: 100vh;
 
@@ -8,620 +8,627 @@ body {
 
     overflow: hidden;
     background-color: aqua;
-  }
-  
-    .gameboy {
-        margin: 0;
-        padding: 0;
-
-        position: relative;
-        height: 68em;
-        width: 42em;
-
-        font-family: 'Arial', sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        transform: scale(0.5);
-        border-radius: 1em 1em 5em 1em;
-    
-        flex-shrink: 0;
-        background-color:  #eae8e4;
-        background: linear-gradient(to left, #b2afb0 0%, #eae8e4 2%, #eae8e4 98%, #c0bcb4 100%);
-        box-shadow: inset 0 10px 6px -2px rgba(255, 255, 255, 0.95), inset 0 -4px 16px 0 rgba(0, 0, 0, 0.5), 0 40px 60px 0px rgba(0, 0, 0, 0.6);;
-    }
-
-    .diseño-frontal cabecera{
-        box-shadow: inset 0 10px 6px -2px rgba(255, 255, 255, 0.95), inset 0 -4px 16px 0 rgba(0, 0, 0, 0.5), 0 40px 60px 0px rgba(0, 0, 0, 0.6);
-    }
-
-
-
-        /* Espacio de la pantalla total, que hemos determinado como totalScreen */
-        
-            .totalScreen{
-            /* Miramos en internet como hacer el gameboy-stripe-gradient y copiamos el códido de las dos líneas. */
-                --gameboy-stripe-gradient: linear-gradient( transparent 10px, #7d1a4a 10px 12px, transparent 12px 16px, #35224e 16px 18px, transparent 18px );
-                background: var(--gameboy-stripe-gradient);
-
-                height:24em;
-                border-radius: 0.625em 0.625em 3.7em 0.625em;
-                background-color: #73738a;
-                border-top: 2px solid rgba(0, 0, 0, 0.7);
-                box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.4);
-                margin:3em;
-                margin-top:2em;
-            }
-
-            .pantallaInfor{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                align-content: center;
-                justify-content: flex-start;
-                align-items: flex-start;
-
-                margin-left: 0.7em;
-                
-            }
-          
-            .screenTextoSuperior{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                
-            }
-        
-            #textMatrix{
-                margin:0.31em;
-                margin-top: 0.4em;
-                margin-left: 8em;
-
-                background-color: grey;
-            }
-
-           
-            
-            .bateria{
-                width: 6em;
-                height: 10em;
-
-                display: flex;
-                flex-direction: column;
-                flex-wrap: nowrap;
-                justify-content: center;
-                align-items: center;
-                
-                /* background-color: aquamarine; */
-            }
-            #pantalla{
-            
-                width:25em;
-                height: 19em;
-                margin-top: 0.9em;;
-                border: 0.1em solid #575a22;
-                background-color:green;
-                cursor: pointer;
-            }
-            
-
-            #piloto{
-                width: 1em;
-                height: 1em;
-                margin-right: 2em;
-
-                display: flex;
-                justify-content: end;
-                border-radius: 50%;
-                cursor: pointer;
-                background-color: green;
-
-            }
-
-            .textoPiloto{
-                margin-top: 1em;
-            }
-
-        /* <!-- Diseño del logo que hay debajo de la pantalla --> */
-            
-            .logoNintendo{
-                margin:0;
-                margin-top: -2em;
-                margin-left: 3.2em;
-            }
-            #textNintendo{
-                font-size: 2em ;
-            }
-
-            #textGameBoy{
-                font-size: 2.5em;
-            }
-
-            .logoTm{
-                margin-top: -4em;
-                margin-left: 25.6em;
-                display: flex;
-            }
-
-        /* Diseño de la primera parte de los botones, cruz + A,B */
-            .parteBotones1{
-                height: 22em;
-
-                margin-top: 1em;
-                margin-left: 2em;
-                margin-right: 2em;
-
-                display: flex;
-                flex-wrap: nowrap;
-                justify-content: space-between;
-                align-items: center;
-                flex-direction: row;
-
-                gap:2em;
-
-            }     
-            
-            /* Diseño de la cruz. */
-
-            .cruz{
-                height: 15em;
-                width: 15em;
-
-                display: flex;
-                flex-wrap: nowrap;
-                align-content: center;
-                justify-content: center;
-                align-items: center;
-
-                border-radius: 50%;
-                background-color: #CFC8D1;
-                box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
-
-            }
-                .espacioCruz{
-                    height: 4.5em;
-                    width: 4.5em;
-
-               }
-
-                        .cruz1{
-                            height: 4.5em;
-                            width: 4.5em;
-
-                            display: flex;
-                            flex-direction: column;
-                            flex-wrap: nowrap;
-                            align-content: center;
-                            justify-content: center;
-                            align-items: center;
-
-                            -webkit-transform: rotate(90deg);
-
-                            gap:0.7em;
-
-                            background-color: #8840e6;
-                        }
-
-                        .cruz2{
-                            height: 4.5em;
-                            width: 4.5em;
-
-                            display: flex;
-                            flex-direction: column;
-                            flex-wrap: nowrap;
-                            align-content: center;
-                            justify-content: center;
-                            align-items: center;
-
-                            gap:0.7em;
-
-                            background-color: #8840e6;
-                        }
-                        .cruz3{
-                            height: 4.5em;
-                            width: 4.5em;
-
-                            display: flex;
-                            flex-direction: column;
-                            flex-wrap: nowrap;
-                            align-content: center;
-                            justify-content: center;
-                            align-items: center;
-
-                            gap:0.7em;
-
-                            background-color: #8840e6;
-                        }
-                        .cruz4{
-                            height: 4.5em;
-                            width: 4.5em;
-
-                            display: flex;
-                            flex-direction: column;
-                            flex-wrap: nowrap;
-                            align-content: center;
-                            justify-content: center;
-                            align-items: center;
-
-                            gap:0.7em;
-
-                            background-color: #8840e6;
-                        }
-                        .cruz5{
-                            height: 4.5em;
-                            width: 4.5em;
-
-                            display: flex;
-                            flex-direction: column;
-                            flex-wrap: nowrap;
-                            align-content: center;
-                            justify-content: center;
-                            align-items: center;
-
-                            -webkit-transform: rotate(90deg);
-
-                            gap:0.7em;
-
-                            background-color: #8840e6;
-                        }
-
-                                .lineaCruz{
-                                    height: 0.5em;
-                                    width: 3.5em;
-
-                                    background-color:  white;
-                                }
-
-                                .circuloCruz{
-                                    height: 4em;
-                                    width: 4em;
-                                    border-radius: 100%;
-                                    background-color: #35224e;
-                                }
-
-            .botonesAB{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                justify-content: space-around;
-                align-items: flex-start;
-
-                height: 7.1em;
-                width: 16.1em;
-
-                transform: rotate(-25deg);
-                border-radius: 72px;
-                background-color: #CFC8D1;
-                box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
-
-
-            }
-
-                #botonA{
-                    height: 5.5em;
-                    width: 5.5em;
-                    margin-top: 1em;
-                    border-radius: 50%;
-                    background:linear-gradient(to bottom, #b30f42 0%, #640116 100%);
-                    cursor: pointer;
-                }
-
-                #botonB{
-                    height: 5.5em;
-                    width: 5.5em;
-                    margin-top: 1em;
-                    border-radius: 50%;
-                    background:linear-gradient(to bottom, #b30f42 0%, #640116 100%);
-                    cursor: pointer;
-                }
-
-
-
-             /* Diseño botones Select y Start    */
-
-            /* BOTÓN START */
-             .selectStart{
-                display: flex;
-                transform: rotate(-18deg);
-                height: 5em;
-                width: 12em;
-                margin-left: 15em;
-                flex-wrap: nowrap;
-                flex-direction: row;
-                align-content: center;
-                align-items: center;
-                justify-content: center;
-             }
-             
-             .startExterior{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                justify-content: space-around;
-                align-items: flex-start;
-                height: 7.1em;
-                width: 16.1em;
-                margin-top: 2em;
-                border-radius: 4.5em;
-            }
-
-              
-                #selectBoton{
-                    height: 1.5em;
-                    width: 7em;
-                    border-radius: 1.25px;
-                    background: inset 0 -4px 2px -2px rgba(255, 255, 255, 0.9);
-                }
-
-                #clickStart{
-                    height: 1.12em;
-                    width: 5.5em;
-                    margin-left: 0.8em;
-                    margin-top: 0.1em;
-
-                    cursor: pointer;
-
-                    border-radius: 1.25em;
-                    background: red;
-                    box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
-                }
-                
-                .textStart{
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 0.9em;
-
-                }
-
-                /* BOTÓN SELECT */
-                .selectExterior{
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: nowrap;
-                    justify-content: space-around;
-                    align-items: flex-start;
-                    height: 7.1em;
-                    width: 16.1em;
-                    border-radius: 4.5em;
-                }
-                
-    
-                    #selectBoton{
-                        height: 1.5em;
-                        width: 7em;
-                        border-radius: 1.25em;
-                        background: inset 0 -4px 2px -2px rgba(255, 255, 255, 0.9);
-                    }
-
-                    #clickSelect{
-                        height: 1.12em;
-                        width: 5.5em;
-                        margin-left: 0.8em;
-                        margin-top: 0.1em;
-                        border-radius: 1.25em;
-                        
-                        cursor: pointer;
-
-                        background: red;
-                        box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);}
-                    
-                    
-                    .textSelect{
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 0.9em;
-                    }
-    
-                /* Diseño altavoces */
-                    .altavoces{
-                    margin: 0;
-                    padding:0;
-                    
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: nowrap;
-                    justify-content: center;
-                    align-items: flex-start;
-
-
-                    }
-
-
-                    .altavocesVacio{
-                        margin:0;
-                        padding:0;
-                        width: 28em;
-                        height: 2em;
-                       
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: nowrap;
-                        align-content: flex-start;
-                        justify-content: center;
-                        align-items: flex-start;
-
-                    }
-
-                    .contenidoAltavoces{
-                        margin: 0;
-                        padding: 0;
-                        width:14em;
-                        
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: nowrap;
-                        align-content: flex-start;
-                        justify-content: center;
-                        align-items: flex-start;
-
-                        gap:0.4em;
-
-                        transform: rotate(-29deg);
-
-                        background-color: aquamarine;
-                    }
-                            .altavoz1{
-                                display:content;
-                                width: 1em;
-                                height: 7em;
-                                background-color: #35224e;
-                            }
-
-
-                /* Diseño texto Phone. */
-
-                .textoPhone {
-                margin: 0;
-                padding:0;
-
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                align-content: center;
-                justify-content: center;
-
-                
-                }
-
-                .espacioPhoneIzq{
-                    margin:0;
-                    padding:0;
-                    width: 18em;
-                    
-                }
-
-                .phone{
-                    margin:0;
-                    padding: 0;
-                    width: 6em;
-
-                    display:flex;
-                    justify-content: center;
-                    border-radius: 0 0 0.4em 0.4em;
-                    border: 0.3em 0.3em 0em 0.3em solid #1111;
-                    box-shadow: 0 2px 2px #2f2725aa;
-                    
-
-                }
-
-                .espacioPhoneDer{
-                    margin:0;
-                    padding:0;
-                    width: 18em;
-                    
-                }
-
-                /* Diseño lineas debajo de phone. */
-            
-
-                .lineasPhone{
-                    margin: 0;
-                    padding: 0;
-
-                    margin-left: 2.2em;
-                   
-                    height: 1.5em;
-                    width: 42em;
-
-                    gap:0.2em; 
-
-                    display: flex;
-                    flex-wrap: nowrap;
-                    align-content: center;
-                    justify-content: center;
-
-                    
-
-                }
-
-                .lineaPh1{
-                    height: 1.5em;
-                    width: 0.4em;
-
-                    background-color: #35224e;
-                }
-
-                /* Diseño texto ON-OFF. */
-
-                .onOff {
-                    margin: 0;
-                    padding:0;
-    
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    align-content: center;
-                    justify-content: flex-start;
-                    align-items:center;
-
-                    border-radius: 0 0 0.4em 0.4em;
-                    border: 0.3em solid #1111;
-                    background-image: url("img/sombreadogris.jpg");
-                    box-shadow: 0 2px 2px #2f2725aa;
-                    
-                    cursor: pointer;
-                    }
-    
-                    .espacioIzquierda{
-                        margin:0;
-                        padding:0;
-                        width: 18em;
-                    }
-    
-                    .espacioMedio{
-                        margin:0;
-                        padding: 0;
-                        width: 38em;
-                        height: 1.2em;
-    
-                        display:flex;
-                        flex-direction: row;
-                        flex-wrap: nowrap;
-                        align-content: center;
-                        justify-content: flex-start;
-                        border-radius: 0 0 0.4em 0.4em;
-                        border: 0.3em solid #1111;
-                        box-shadow: 0 2px 2px #2f2725aa;
-                        
-    
-                    }
-    
-                    .espacioPhoneDer{
-                        margin:0;
-                        padding:0;
-                        width: 18em;
-                        
-                    }
-    
-                    /* Diseño lineas debajo de phone. */
-                
-    
-                    .lineasPhone{
-                        margin: 0;
-                        padding: 0;
-    
-                        margin-left: 2.2em;
-                       
-                        height: 1.5em;
-                        width: 42em;
-    
-                        gap:0.2em; 
-    
-                        display: flex;
-                        flex-wrap: nowrap;
-                        align-content: center;
-                        justify-content: center;
-    
-                        
-    
-                    }
-    
-                    .lineaPh1{
-                        height: 1.5em;
-                        width: 0.4em;
-    
-                        background-color: #35224e;
-                    }
-                
-           
-
-             
+}
+
+.gameboy {
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+    height: 68em;
+    width: 42em;
+
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: scale(0.5);
+    border-radius: 1em 1em 5em 1em;
+
+    flex-shrink: 0;
+    background-color: #eae8e4;
+    background: linear-gradient(to left, #b2afb0 0%, #eae8e4 2%, #eae8e4 98%, #c0bcb4 100%);
+    box-shadow: inset 0 10px 6px -2px rgba(255, 255, 255, 0.95), inset 0 -4px 16px 0 rgba(0, 0, 0, 0.5), 0 40px 60px 0px rgba(0, 0, 0, 0.6);
+    ;
+}
+
+.diseño-frontal cabecera {
+    box-shadow: inset 0 10px 6px -2px rgba(255, 255, 255, 0.95), inset 0 -4px 16px 0 rgba(0, 0, 0, 0.5), 0 40px 60px 0px rgba(0, 0, 0, 0.6);
+}
+
+
+
+/* Espacio de la pantalla total, que hemos determinado como totalScreen */
+
+.totalScreen {
+    /* Miramos en internet como hacer el gameboy-stripe-gradient y copiamos el códido de las dos líneas. */
+    --gameboy-stripe-gradient: linear-gradient(transparent 10px, #7d1a4a 10px 12px, transparent 12px 16px, #35224e 16px 18px, transparent 18px);
+    background: var(--gameboy-stripe-gradient);
+
+    height: 24em;
+    border-radius: 0.625em 0.625em 3.7em 0.625em;
+    background-color: #73738a;
+    border-top: 2px solid rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.4);
+    margin: 3em;
+    margin-top: 2em;
+}
+
+.pantallaInfor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-left: 0.7em;
+
+}
+
+.screenTextoSuperior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#textMatrix {
+    margin: 0.31em;
+    margin-top: 0.4em;
+    margin-left: 8em;
+
+    background-color: grey;
+}
+
+
+
+.bateria {
+    width: 6em;
+    height: 10em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: aquamarine; */
+}
+
+#pantalla {
+
+    width: 25em;
+    height: 19em;
+    margin-top: 0.9em;
+    ;
+    border: 0.1em solid #575a22;
+    background-color: green;
+    cursor: pointer;
+    background-size: cover;
+}
+
+
+#piloto {
+    width: 1em;
+    height: 1em;
+    margin-right: 2em;
+
+    display: flex;
+    justify-content: end;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: green;
+
+}
+
+.textoPiloto {
+    margin-top: 1em;
+}
+
+/* <!-- Diseño del logo que hay debajo de la pantalla --> */
+
+.logoNintendo {
+    margin: 0;
+    margin-top: -2em;
+    margin-left: 3.2em;
+}
+
+#textNintendo {
+    font-size: 2em;
+}
+
+#textGameBoy {
+    font-size: 2.5em;
+}
+
+.logoTm {
+    margin-top: -4em;
+    margin-left: 25.6em;
+    display: flex;
+}
+
+/* Diseño de la primera parte de los botones, cruz + A,B */
+.parteBotones1 {
+    height: 22em;
+
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 2em;
+
+}
+
+/* Diseño de la cruz. */
+
+.cruz {
+    height: 15em;
+    width: 15em;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: #CFC8D1;
+    box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.espacioCruz {
+    height: 4.5em;
+    width: 4.5em;
+
+}
+
+.cruz1 {
+    height: 4.5em;
+    width: 4.5em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-transform: rotate(90deg);
+
+    gap: 0.7em;
+
+    background-color: #8840e6;
+}
+
+.cruz2 {
+    height: 4.5em;
+    width: 4.5em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.7em;
+
+    background-color: #8840e6;
+}
+
+.cruz3 {
+    height: 4.5em;
+    width: 4.5em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.7em;
+
+    background-color: #8840e6;
+}
+
+.cruz4 {
+    height: 4.5em;
+    width: 4.5em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.7em;
+
+    background-color: #8840e6;
+}
+
+.cruz5 {
+    height: 4.5em;
+    width: 4.5em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-transform: rotate(90deg);
+
+    gap: 0.7em;
+
+    background-color: #8840e6;
+}
+
+.lineaCruz {
+    height: 0.5em;
+    width: 3.5em;
+
+    background-color: white;
+}
+
+.circuloCruz {
+    height: 4em;
+    width: 4em;
+    border-radius: 100%;
+    background-color: #35224e;
+}
+
+.botonesAB {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    height: 7.1em;
+    width: 16.1em;
+
+    transform: rotate(-25deg);
+    border-radius: 72px;
+    background-color: #CFC8D1;
+    box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
+
+
+}
+
+#botonA {
+    height: 5.5em;
+    width: 5.5em;
+    margin-top: 1em;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #b30f42 0%, #640116 100%);
+    cursor: pointer;
+}
+
+#botonB {
+    height: 5.5em;
+    width: 5.5em;
+    margin-top: 1em;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #b30f42 0%, #640116 100%);
+    cursor: pointer;
+}
+
+
+
+/* Diseño botones Select y Start    */
+
+/* BOTÓN START */
+.selectStart {
+    display: flex;
+    transform: rotate(-18deg);
+    height: 5em;
+    width: 12em;
+    margin-left: 15em;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.startExterior {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 7.1em;
+    width: 16.1em;
+    margin-top: 2em;
+    border-radius: 4.5em;
+}
+
+
+#selectBoton {
+    height: 1.5em;
+    width: 7em;
+    border-radius: 1.25px;
+    background: inset 0 -4px 2px -2px rgba(255, 255, 255, 0.9);
+}
+
+#clickStart {
+    height: 1.12em;
+    width: 5.5em;
+    margin-left: 0.8em;
+    margin-top: 0.1em;
+
+    cursor: pointer;
+
+    border-radius: 1.25em;
+    background: red;
+    box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.textStart {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9em;
+
+}
+
+/* BOTÓN SELECT */
+.selectExterior {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 7.1em;
+    width: 16.1em;
+    border-radius: 4.5em;
+}
+
+
+#selectBoton {
+    height: 1.5em;
+    width: 7em;
+    border-radius: 1.25em;
+    background: inset 0 -4px 2px -2px rgba(255, 255, 255, 0.9);
+}
+
+#clickSelect {
+    height: 1.12em;
+    width: 5.5em;
+    margin-left: 0.8em;
+    margin-top: 0.1em;
+    border-radius: 1.25em;
+
+    cursor: pointer;
+
+    background: red;
+    box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.textSelect {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9em;
+}
+
+/* Diseño altavoces */
+.altavoces {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+
+.altavocesVacio {
+    margin: 0;
+    padding: 0;
+    width: 28em;
+    height: 2em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.contenidoAltavoces {
+    margin: 0;
+    padding: 0;
+    width: 14em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 0.4em;
+
+    transform: rotate(-29deg);
+
+    background-color: aquamarine;
+}
+
+.altavoz1 {
+    display: content;
+    width: 1em;
+    height: 7em;
+    background-color: #35224e;
+}
+
+
+/* Diseño texto Phone. */
+
+.textoPhone {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.espacioPhoneIzq {
+    margin: 0;
+    padding: 0;
+    width: 18em;
+
+}
+
+.phone {
+    margin: 0;
+    padding: 0;
+    width: 6em;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 0.4em 0.4em;
+    border: 0.3em 0.3em 0em 0.3em solid #1111;
+    box-shadow: 0 2px 2px #2f2725aa;
+
+
+}
+
+.espacioPhoneDer {
+    margin: 0;
+    padding: 0;
+    width: 18em;
+
+}
+
+/* Diseño lineas debajo de phone. */
+
+
+.lineasPhone {
+    margin: 0;
+    padding: 0;
+
+    margin-left: 2.2em;
+
+    height: 1.5em;
+    width: 42em;
+
+    gap: 0.2em;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+
+
+
+}
+
+.lineaPh1 {
+    height: 1.5em;
+    width: 0.4em;
+
+    background-color: #35224e;
+}
+
+/* Diseño texto ON-OFF. */
+
+.onOff {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-radius: 0 0 0.4em 0.4em;
+    border: 0.3em solid #1111;
+    background-image: url("img/sombreadogris.jpg");
+    box-shadow: 0 2px 2px #2f2725aa;
+
+    cursor: pointer;
+}
+
+.espacioIzquierda {
+    margin: 0;
+    padding: 0;
+    width: 18em;
+}
+
+.espacioMedio {
+    margin: 0;
+    padding: 0;
+    width: 38em;
+    height: 1.2em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    border-radius: 0 0 0.4em 0.4em;
+    border: 0.3em solid #1111;
+    box-shadow: 0 2px 2px #2f2725aa;
+
+
+}
+
+.espacioPhoneDer {
+    margin: 0;
+    padding: 0;
+    width: 18em;
+
+}
+
+/* Diseño lineas debajo de phone. */
+
+
+.lineasPhone {
+    margin: 0;
+    padding: 0;
+
+    margin-left: 2.2em;
+
+    height: 1.5em;
+    width: 42em;
+
+    gap: 0.2em;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+
+
+
+}
+
+.lineaPh1 {
+    height: 1.5em;
+    width: 0.4em;
+
+    background-color: #35224e;
+}
