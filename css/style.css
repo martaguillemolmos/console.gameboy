@@ -63,7 +63,7 @@ body {
                 margin-left: 0.7em;
                 
             }
-
+          
             .screenTextoSuperior{
                 display: flex;
                 justify-content: center;
@@ -93,17 +93,18 @@ body {
                 
                 /* background-color: aquamarine; */
             }
-            .pantalla{
+            #pantalla{
             
                 width:25em;
                 height: 19em;
                 margin-top: 0.9em;;
                 border: 0.1em solid #575a22;
-                background:linear-gradient(to left, #9aa13c 0%, #575a22 100%);
+                background-color:green;
+                cursor: pointer;
             }
             
 
-            .piloto{
+            #piloto{
                 width: 1em;
                 height: 1em;
                 margin-right: 2em;
@@ -111,8 +112,8 @@ body {
                 display: flex;
                 justify-content: end;
                 border-radius: 50%;
-                background: radial-gradient(ellipse at center, #615d5d 0%, #43423f 100%);
-                background-color: red;
+                cursor: pointer;
+                background-color: green;
 
             }
 
