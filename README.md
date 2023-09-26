@@ -26,13 +26,13 @@ En este proyecto hemos puesto en práctica todos los conocimientos que hemos adq
 
 A continuación, detallaremos los comandos que debemos seguir para poder acceder a uno de los juegos de Mario Bros.
 
-1- Para encender la consola, debemos de hacer click sobre el ON-OFF. Se visualizará el logo de Nintendo GameBoy, junto con la melodía de inicio.
+1. Para encender la consola, debemos de hacer click sobre el ON-OFF. Se visualizará el logo de Nintendo GameBoy, junto con la melodía de inicio.
 <img src="img/capturaInicio.jpg">
 
-2- Tras encender la consola, haremos click sobre la cruceta izquierda para visualizar los diferentes videojuegos que podemos escoger.
-3- Hacer click sobre el botón seleccionar para escoger el juego al que queremos jugar.
-4- Pulsaremos sobre A para iniciar el jeugo y nos aparecerá el número de jugadores.
-5- Por último, para poder iniciar el juego, tan sólo deberemos pulsar sobre el botónB.
+2. Tras encender la consola, haremos click sobre la cruceta izquierda para visualizar los diferentes videojuegos que podemos escoger.
+3. Hacer click sobre el botón seleccionar para escoger el juego al que queremos jugar.
+4. Pulsaremos sobre A para iniciar el jeugo y nos aparecerá el número de jugadores.
+5. Por último, para poder iniciar el juego, tan sólo deberemos pulsar sobre el botónB.
 
 Podremos reiniciar la consola y, volver a la primera pantalla, haciendo click en Reset. Y, por último, para poder apagar la consola. Haremos de nuevo click en el texto superior: ON.OFF.
 
