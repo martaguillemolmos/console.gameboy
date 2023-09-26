@@ -77,7 +77,6 @@ reset.addEventListener("click", function () {
 avanzar.addEventListener("click", function () {
   if (piloto.style.backgroundColor === "red") {
     video.style.display = "none";
-    console.log(indexImage);
     if (indexImage !== 3) {
       let imagen = arrayImagenes[indexImage];
       pantalla.style.backgroundImage = `url('img/${imagen}')`;
@@ -87,7 +86,5 @@ avanzar.addEventListener("click", function () {
       pantalla.style.backgroundImage = `url('img/${imagen}')`;
       indexImage = 0;
     }
-
-    console.log(pantalla.style);
   }
 });
