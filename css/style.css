@@ -7,7 +7,8 @@ body {
     justify-content: center;
 
     overflow: hidden;
-    background-color: aqua;
+    background-image: url(../img/backgroundColor.jpeg);
+    background-size: cover;
 }
 
 .gameboy {
@@ -135,10 +136,15 @@ body {
 }
 
 #textNintendo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
     font-size: 2em;
 }
 
 #textGameBoy {
+    color: blue;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
 }
 
@@ -169,8 +175,8 @@ body {
 /* Diseño de la cruz. */
 
 .cruz {
-    height: 15em;
-    width: 15em;
+    height: 14em;
+    width: 14em;
 
     display: flex;
     flex-wrap: nowrap;
@@ -185,14 +191,14 @@ body {
 }
 
 .espacioCruz {
-    height: 4.5em;
-    width: 4.5em;
+    height: 4em;
+    width: 4em;
 
 }
 
 .cruz1 {
-    height: 4.5em;
-    width: 4.5em;
+    height: 4em;
+    width: 4em;
 
     display: flex;
     flex-direction: column;
@@ -204,13 +210,15 @@ body {
     -webkit-transform: rotate(90deg);
 
     gap: 0.7em;
-
-    background-color: #8840e6;
+    
+    background: rgb(4, 3, 8);
+    border: 3px solid rgb(4, 3, 8);
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;
 }
 
 .cruz2 {
-    height: 4.5em;
-    width: 4.5em;
+    height: 4em;
+    width: 4em;
 
     display: flex;
     flex-direction: column;
@@ -221,12 +229,14 @@ body {
 
     gap: 0.7em;
 
-    background-color: #8840e6;
+    background: rgb(4, 3, 8);
+    border: 3px solid rgb(4, 3, 8);
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;;
 }
 
 .cruz3 {
-    height: 4.5em;
-    width: 4.5em;
+    height: 4em;
+    width: 4em;
 
     display: flex;
     flex-direction: column;
@@ -237,12 +247,14 @@ body {
 
     gap: 0.7em;
 
-    background-color: #8840e6;
+    background: rgb(4, 3, 8);
+    border: 3px solid rgb(4, 3, 8);
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;;
 }
 
 .cruz4 {
-    height: 4.5em;
-    width: 4.5em;
+    height: 4em;
+    width: 4em;
 
     display: flex;
     flex-direction: column;
@@ -253,12 +265,14 @@ body {
 
     gap: 0.7em;
 
-    background-color: #8840e6;
+    background: rgb(4, 3, 8);
+    border: 3px solid rgb(4, 3, 8);
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;;
 }
 
 .cruz5 {
-    height: 4.5em;
-    width: 4.5em;
+    height: 4em;
+    width: 4em;
 
     display: flex;
     flex-direction: column;
@@ -271,21 +285,23 @@ body {
 
     gap: 0.7em;
 
-    background-color: #8840e6;
+    background: rgb(4, 3, 8);
+    border: 3px solid rgb(4, 3, 8);
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;;
 }
 
 .lineaCruz {
     height: 0.5em;
     width: 3.5em;
 
-    background-color: white;
+    background-color: #6f6f6f;
 }
 
 .circuloCruz {
-    height: 4em;
-    width: 4em;
+    height: 3em;
+    width: 3em;
     border-radius: 100%;
-    background-color: #35224e;
+    background-color: #6f6f6f;
 }
 
 .botonesAB {
@@ -371,7 +387,7 @@ body {
     cursor: pointer;
 
     border-radius: 1.25em;
-    background: red;
+    background: rgb(83, 82, 82);
     box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -411,7 +427,7 @@ body {
 
     cursor: pointer;
 
-    background: red;
+    background: rgb(83, 82, 82);
     box-shadow: inset 0 6px 4px 2px rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.8), 0 0px 0px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -455,7 +471,7 @@ body {
 .contenidoAltavoces {
     margin: 0;
     padding: 0;
-    width: 14em;
+    width: 12em;
 
     display: flex;
     flex-direction: row;
@@ -468,14 +484,16 @@ body {
 
     transform: rotate(-29deg);
 
-    background-color: aquamarine;
 }
 
 .altavoz1 {
     display: content;
     width: 1em;
     height: 7em;
-    background-color: #35224e;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+    background-color: rgba(186, 190, 202, 1);
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
+    
 }
 
 
@@ -541,15 +559,15 @@ body {
     align-content: center;
     justify-content: center;
 
-
-
 }
 
 .lineaPh1 {
     height: 1.5em;
     width: 0.4em;
 
-    background-color: #35224e;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+    background-color: rgba(186, 190, 202, 1);
+    box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
 }
 
 /* Diseño texto ON-OFF. */
@@ -631,7 +649,6 @@ body {
     height: 1.5em;
     width: 0.4em;
 
-    background-color: #35224e;
 }
 
 #audio {
