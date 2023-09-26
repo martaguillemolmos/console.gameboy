@@ -67,7 +67,7 @@ select.addEventListener("click", function () {
 reset.addEventListener("click", function () {
   if (piloto.style.backgroundColor === "red") {
     console.log("2");
-    pantalla.style.backgroundImage = "white";
+    pantalla.style.backgroundImage = "green";
     audio.play();
     video.style.display = "initial";
     video.play();
