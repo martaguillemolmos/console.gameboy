@@ -17,16 +17,16 @@ En este proyecto hemos puesto en práctica todos los conocimientos que hemos adq
 
 ## Tecnologías utilizadas:
 
-[<img src="img/tecnologia.png" width="60">]
+ <img src="img/tecnologia.png">
 
-HTML, CSS y JavaScript
+ HTML, CSS y JavaScript
+
 
 ## Instrucciones de uso
 
 A continuación, detallaremos los comandos que debemos seguir para poder acceder a uno de los juegos de Mario Bros.
 
 1- Para encender la consola, debemos de hacer click sobre el ON-OFF. Se visualizará el logo de Nintendo GameBoy, junto con la melodía de inicio.
-[<img src="img/capturaInicio.jpg]
 2- Tras encender la consola, haremos click sobre la cruceta izquierda para visualizar los diferentes videojuegos que podemos escoger.
 3- Hacer click sobre el botón seleccionar para escoger el juego al que queremos jugar.
 4- Pulsaremos sobre A para iniciar el jeugo y nos aparecerá el número de jugadores.
@@ -72,8 +72,3 @@ img/: Esta carpeta contiene las imágenes y recursos utilizados.
 README.md: El archivo README.md contiene la información que estás leyendo actualmente, proporcionando una descripción general del proyecto así como las intrucciones de uso.
 
 Este proyecto ha sido desarrollado utilizando tecnologías estándar web como HTML, CSS y JavaScript.
-
-## Enlace Github Pages
-
--  [Nintendo GameBoy Interactiva](https://martaguillemolmos.github.io/console.gameboy/)
----
