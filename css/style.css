@@ -210,7 +210,7 @@ body {
     -webkit-transform: rotate(90deg);
 
     gap: 0.7em;
-    
+
     background: rgb(4, 3, 8);
     border: 3px solid rgb(4, 3, 8);
     box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;
@@ -231,7 +231,8 @@ body {
 
     background: rgb(4, 3, 8);
     border: 3px solid rgb(4, 3, 8);
-    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;;
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;
+    ;
 }
 
 .cruz3 {
@@ -249,7 +250,8 @@ body {
 
     background: rgb(4, 3, 8);
     border: 3px solid rgb(4, 3, 8);
-    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;;
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;
+    ;
 }
 
 .cruz4 {
@@ -267,7 +269,8 @@ body {
 
     background: rgb(4, 3, 8);
     border: 3px solid rgb(4, 3, 8);
-    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;;
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;
+    ;
 }
 
 .cruz5 {
@@ -287,8 +290,9 @@ body {
 
     background: rgb(4, 3, 8);
     border: 3px solid rgb(4, 3, 8);
-    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;;
-    
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 4px 3px;
+    ;
+
     cursor: pointer;
 
 }
@@ -496,7 +500,7 @@ body {
     border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
     background-color: rgba(186, 190, 202, 1);
     box-shadow: inset 0.07rem 0.07rem 0.2rem 0.01rem;
-    
+
 }
 
 

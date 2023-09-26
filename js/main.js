@@ -47,7 +47,7 @@ botonA.addEventListener("click", function () {
 botonB.addEventListener("click", function () {
   if (piloto.style.backgroundColor === "red") {
     video.style.display = "none";
-    
+
     pantalla.style.backgroundImage = "url('img/pantallaB.jpg')";
   }
 });
