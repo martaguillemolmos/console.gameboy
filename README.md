@@ -17,7 +17,7 @@ En este proyecto hemos puesto en práctica todos los conocimientos que hemos adq
 
 ## Tecnologías utilizadas:
 
-[HTML, CSS y JavaScript](http://url/to/img/img.readme/tecnologia.png)
+HTML, CSS y JavaScript[<img src="img/tecnologia.png" width="60">]
 
 
 ## Instrucciones de uso
